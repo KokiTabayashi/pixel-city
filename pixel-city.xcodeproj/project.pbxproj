@@ -13,6 +13,7 @@
 		E76881E92090471D00088E59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76881E72090471D00088E59 /* Main.storyboard */; };
 		E76881EB2090471F00088E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E76881EA2090471F00088E59 /* Assets.xcassets */; };
 		E76881EE2090471F00088E59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76881EC2090471F00088E59 /* LaunchScreen.storyboard */; };
+		E76881FA209198E600088E59 /* DroppablePing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76881F9209198E600088E59 /* DroppablePing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E76881EA2090471F00088E59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E76881ED2090471F00088E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E76881EF2090471F00088E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E76881F9209198E600088E59 /* DroppablePing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		E76881F62090475E00088E59 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E76881F9209198E600088E59 /* DroppablePing.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			files = (
 				E76881E62090471D00088E59 /* MapVC.swift in Sources */,
 				E76881E42090471D00088E59 /* AppDelegate.swift in Sources */,
+				E76881FA209198E600088E59 /* DroppablePing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,7 +387,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47SQKMHA2B;
 				INFOPLIST_FILE = "pixel-city/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.kokitabayashi.pixel-city";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -399,7 +406,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47SQKMHA2B;
 				INFOPLIST_FILE = "pixel-city/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.kokitabayashi.pixel-city";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
