@@ -10,6 +10,7 @@
 		B1CC51304E4ABA63ECDEEBF3 /* Pods_pixel_city.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DF980531D151BCA970485C /* Pods_pixel_city.framework */; };
 		E73206A62095C62E0023263A /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73206A52095C62E0023263A /* PhotoCell.swift */; };
 		E73206A8209691AB0023263A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73206A7209691AB0023263A /* Constants.swift */; };
+		E73206AA2096BF550023263A /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73206A92096BF550023263A /* PopVC.swift */; };
 		E76881E42090471D00088E59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76881E32090471D00088E59 /* AppDelegate.swift */; };
 		E76881E62090471D00088E59 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76881E52090471D00088E59 /* MapVC.swift */; };
 		E76881E92090471D00088E59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76881E72090471D00088E59 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 		920F9FE3366BBD6C40B0B64F /* Pods-pixel-city.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pixel-city.release.xcconfig"; path = "Pods/Target Support Files/Pods-pixel-city/Pods-pixel-city.release.xcconfig"; sourceTree = "<group>"; };
 		E73206A52095C62E0023263A /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		E73206A7209691AB0023263A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E73206A92096BF550023263A /* PopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
 		E76881E02090471D00088E59 /* pixel-city.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pixel-city.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76881E32090471D00088E59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E76881E52090471D00088E59 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				E76881E52090471D00088E59 /* MapVC.swift */,
+				E73206A92096BF550023263A /* PopVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E73206AA2096BF550023263A /* PopVC.swift in Sources */,
 				E73206A8209691AB0023263A /* Constants.swift in Sources */,
 				E73206A62095C62E0023263A /* PhotoCell.swift in Sources */,
 				E76881E62090471D00088E59 /* MapVC.swift in Sources */,
